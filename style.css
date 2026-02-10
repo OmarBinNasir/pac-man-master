@@ -1,0 +1,110 @@
+/* .grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    border: solid black;
+}
+  
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.pac-dot {
+    background-color: green;   
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.wall {
+    background-color: rgb(2, 2, 49);
+}
+
+.power-pellet {
+    background-color: green;
+    border-radius: 10px;
+}
+
+.blinky {
+    background-color: red;
+}
+
+.pinky {
+    background-color: pink;
+}
+
+.inky {
+    background-color: cyan;
+}
+
+.clyde {
+    background-color: orange;     
+}
+
+.pac-man {
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+.scared-ghost {
+    background-color: aquamarine;
+} */
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    border: solid black;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Game Elements */
+.pac-dot {
+    background-color: green;   
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.wall {
+    background-image: url('images/wall.png');
+}
+
+.power-pellet {
+    background-color: green;
+    border-radius: 10px;
+}
+
+.pac-man {
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+/* Ghosts */
+.blinky {
+    background-image: url('images/blinky.png');
+}
+
+.pinky {
+    background-image: url('images/pinky.png');
+}
+
+.inky {
+    background-image: url('images/inky.png');
+}
+
+.clyde {
+    background-image: url('images/clyde.png');
+}
+
+.scared-ghost {
+    background-image: url('images/scared-ghost.png');
+}
